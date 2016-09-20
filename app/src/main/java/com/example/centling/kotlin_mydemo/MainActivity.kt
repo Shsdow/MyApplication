@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         one = add(2,5)
         two1 = add(2,512)
+        two1 = add(2,5133)
     }
 
     fun add(a: Int, b: Int): Int? = a + b
