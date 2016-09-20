@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        one = add(2,5)
     }
 
     fun add(a: Int, b: Int): Int? = a + b
