@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
 class MainActivity : AppCompatActivity() {
-    val one: Int? = null
+    var one: Int? = null
     val two1: Int? = 1
     val two2: Int? = 1
     val two3: Int? = 1
